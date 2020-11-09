@@ -1,0 +1,102 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, #32867a, #106b59);
+}
+
+.containerdiv{
+    height: 100vh;
+}
+
+.welcome{
+    background-color: #32867a;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-style: normal;
+}
+
+.background{
+    background-image: linear-gradient(to left, #32867a, #106b59);
+}
+
+.menubtn{
+    background-color: #32867a;
+    transition: 0.3s;
+}
+
+.menubtn:hover{
+    background-color: #2ecc71;
+}
+
+.alignbtn{
+    vertical-align: center;
+}
+
+.parentcontainerprofilepic{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.profilepic{
+    object-fit: cover;
+    height: 100vh;
+}
+
+.innerdivpic{
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerdivpic:hover{
+    opacity: 50%;
+    background-color: #000000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.menutext{
+    font-size: 20px;
+}
+
+.icon{
+    width: 50px;
+}
+
+.follow{
+    background-image: linear-gradient(to right, #32867a, #106b59);
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulpendidikan{
+    font-size: 20px;
+}
+
+.namasekolah{
+    font-size: 15px;
+}
+
+.namalokasi{
+    font-size: 12px;
+}
